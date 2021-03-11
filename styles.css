@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+div {
+  display: inline-block;
+  float: center;
+  width: 400px;
+  padding: 20px;
+  padding-bottom:3vw;
+  border:4px dashed saddlebrown;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  padding: 20px;
+}
+  
+  body {
+  background-color: #FFF0D9;
+}
+
+h1 {
+  font-family: Sigmar One;
+  font-style: bold;
+  color: saddlebrown;
+  text-align: center;
+  font-size: 80px;
+}
+
+h2 {
+  font-style: italic;
+  color:  	#DEB887;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: Sigmar One;
+  font-size: 30px;
+  color: saddlebrown;
+  text-align: center;
+}
+
+  li {
+  font-family: Georgia;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+
+#directions li span {
+  font-style: bold;
+  color: red;
+}
+#ingredients li span {
+  font-style: italic;
+  color:  	#DEB887;
+}
+
+#prep li:nth-child(5) {
+  color: red;
+}
+
+@media (orientation:portrait ) {
+  
+  div{
+    width: 95vw;
+  }
+  img{
+    width:95vw;
+    align: center;
+    padding: 10px;
+  }
+}
