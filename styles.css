@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
-
+/* changes how the content box looks */
 div {
   display: inline-block;
   float: center;
   width: 400px;
   padding: 20px;
-  padding-bottom:3vw;
-  border:4px dashed saddlebrown;
+  padding-bottom: 3vw;
+  border: 4px dashed saddlebrown;
   background-color: white;
   border-radius: 10px;
   box-sizing: border-box;
 }
 
+/* changes how the image looks */
 img {
   display: block;
   margin-left: auto;
@@ -19,11 +20,13 @@ img {
   width: 550px;
   padding: 20px;
 }
-  
-  body {
+
+/* changes how the entire page background looks */
+body {
   background-color: #FFF0D9;
 }
 
+/* changes how the title looks */
 h1 {
   font-family: Sigmar One;
   font-style: bold;
@@ -32,13 +35,15 @@ h1 {
   font-size: 80px;
 }
 
+/* changes how the quote looks */
 h2 {
   font-style: italic;
-  color:  	#DEB887;
+  color: #DEB887;
   text-align: center;
   font-size: 40px;
 }
 
+/* changes how the box titles look */
 h4 {
   font-family: Sigmar One;
   font-size: 30px;
@@ -46,46 +51,51 @@ h4 {
   text-align: center;
 }
 
-  li {
+/* changes how the list items look */
+li {
   font-family: Georgia;
 }
 
-ul ul {
+/* changes how the content looks */
+ul {
   list-style-type: circle;
 }
 
-
+/* changes how the boxes behave */
 #directions li span {
   font-style: bold;
   color: red;
 }
+
 #ingredients li span {
   font-style: italic;
-  color:  	#DEB887;
+  color: #DEB887;
 }
 
 #prep li:nth-child(5) {
   color: red;
 }
 
-@media (orientation:portrait ) {
-  
-  div{
+/* changes how the entire page behaves with size changes */
+@media (orientation:portrait) {
+  div {
     width: 95vw;
   }
-  img{
-    width:95vw;
+  img {
+    width: 95vw;
     align: center;
     padding: 10px;
   }
 }
 
 /* to change the color on click */
+
 #title.clicked {
-color: orange;
+  color: orange;
 }
 
 /* hiding the content */
+
 #content1 {
   visibility: hidden;
 }

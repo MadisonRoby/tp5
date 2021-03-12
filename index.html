@@ -27,10 +27,12 @@
   <h1 id="title">World's Best Lasagna</h1>
   <h2> "It takes a little work, but it is worth it." </h2>
 
-   <img src="https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_1280.jpg" alt="lasagna"> 
-    
+  <img src="https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_1280.jpg" alt="lasagna">
+
+  <!-- "onClick" is the action, "showIngredients" is the outcome of clicking in JS -->
   <div id="ingredients">
     <h4 onClick="showIngredients()">Ingredients</h4>
+    <!-- "content1" lables the content to be hidden in CSS -->
     <ul id="content1">
       <li>1 pound sweet Italian sausage</li>
       <li> ¾ pound lean ground beef </li>
@@ -68,8 +70,10 @@
     </ul>
   </div>
 
+  <!-- "onClick" is the action, "showPrep" is the outcome of clicking in JS -->
   <div id="prep">
     <h4 onClick="showPrep()">Prep</h4>
+    <!-- "content2" lables the content to be hidden in CSS -->
     <ul id="content2">
       <li>Prep Time: 30 minutes</li>
       <li>Cook: 2 hours and 30 minutes</li>
@@ -79,8 +83,10 @@
     </ul>
   </div>
 
+  <!-- "onClick" is the action, "showEquipment" is the outcome of clicking in JS -->
   <div id="equpiment">
     <h4 onClick="showEquipment()">Equipment</h4>
+    <!-- "content3" lables the content to be hidden in CSS -->
     <ul id="content3">
       <li>Dutch Oven</li>
       <li>Mixing Bowl</li>
@@ -90,9 +96,11 @@
     </ul>
   </div>
 
+  <!-- "onClick" is the action, "showDirections" is the outcome of clicking in JS -->
   <div id="directions">
     <h4 onClick="showDirections()">Directions</h4>
-    <ul id="content4">
+    <!-- "content4" lables the content to be hidden in CSS -->
+    <ol id="content4">
       <li>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 teaspoon salt, pepper,
         and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.</li>
       <li>Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.</li>
@@ -101,8 +109,11 @@
         meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does
         not touch the cheese.</li>
       <li>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. <span>Cool for 15 minutes before serving.</span></li>
-    </ul>
+    </ol>
   </div>
+
+  <!-- new HTML via JS -->
+  <div id="enjoy"></div>
 
   <p>(Original recipe at <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">AllRecipes.com</a>.)</p>
 
