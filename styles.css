@@ -79,3 +79,25 @@ ul ul {
     padding: 10px;
   }
 }
+
+/* to change the color on click */
+#title.clicked {
+color: orange;
+}
+
+/* hiding the content */
+#content1 {
+  visibility: hidden;
+}
+
+#content2 {
+  visibility: hidden;
+}
+
+#content3 {
+  visibility: hidden;
+}
+
+#content4 {
+  visibility: hidden;
+}
